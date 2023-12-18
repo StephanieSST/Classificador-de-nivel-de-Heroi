@@ -2,7 +2,6 @@
 let nivel = ""
 let repetir = ""
 
-
     do {
         let nome = prompt("Qual é o nome do herói? ")
         let xp = Number(prompt("Qual é a experiência do herói?"))
