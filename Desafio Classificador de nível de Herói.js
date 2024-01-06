@@ -31,12 +31,11 @@ let repetir = ""
             nivel = "Radiante"
         }
         else{
-            // nivel = "Erro"
             alert("Erro! Experiência Inválida!")
             repetir = prompt("Deseja tentar novamente? (s/n)")
             
         }
-        if (!isNaN(xp)){  /* xp != String | (nivel != "Erro") */
+        if (!isNaN(xp)){ 
             alert("O Herói de nome " + nome + " está no nível de " + nivel + "!")
             repetir = prompt("Deseja repetir? (s/n)")
         
